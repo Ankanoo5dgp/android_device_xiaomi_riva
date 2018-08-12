@@ -24,5 +24,6 @@ LOCAL_MODULE := libinit_riva
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := init_riva.cpp
 LOCAL_STATIC_LIBRARIES := libbase
+LOCAL_CPP_STD := c++17
 
 include $(BUILD_STATIC_LIBRARY)
